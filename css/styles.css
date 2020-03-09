@@ -1,0 +1,242 @@
+
+div {
+    display: block;
+    
+}
+body {
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+    font-size: 13px;
+}
+/*navegacion de la pagina*/
+.navegacion{
+    background-image:  url("../images/1.jpg");
+    background-position: 20%;
+   background-repeat: no-repeat
+   
+}
+.navegacion nav{
+    text-align: center;
+    margin-top: -10%;
+    margin-left: 20%;
+}
+.navegacion nav li{
+    list-style: none;
+    display: inline-block;
+}
+.navegacion nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding: 25px 25px;
+}
+.textprincipal{
+    text-align: center;
+    color: white;
+    margin-top: 20%
+    
+}
+.textprincipal h3{
+    font-size: 35px;
+
+}
+.textprincipal p{
+    font-size: 17px;
+    margin-top: -37px;
+}
+/* caja de descuento*/
+.boxcolor{
+    padding: 0 0 0 300px;
+    margin-top: -4%;
+    background-color: #a5a367;
+    
+    
+}
+.boton1{
+    margin: -2px;
+    margin-left: 60%;
+    padding: 10px 80px;
+    display: block;
+    cursor: pointer
+    
+}
+.des{
+    padding: -22%;
+    font-size: 26px;
+}
+.des h5,h2{
+    color: white;
+}
+.des p{
+    color: white;
+    font-size: 14px
+}
+/*varias Cajas Peque*/
+
+.variasbox{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tibox{
+    background-color: #038939;
+    height: 70px;
+    color: #fff;
+    padding: 7px;
+    width: 97%;
+    
+}
+.imgbox h6{
+    position:absolute;
+    font-size:16px;
+    padding: 0;
+    margin: 0;
+    margin-top: -90px;
+    color: white;
+}
+.imgbox p{
+    margin-top: -70px;
+    color: white;
+}
+.cajabo {
+    margin-left: 280px;
+    margin-top: -400px;
+    cursor: pointer;
+    
+}
+.variasbox{
+    padding-left: 20px;
+}
+.precio1{
+    float: left;
+    margin: 15px;
+
+}
+.precio2{
+float: left;
+margin: 15px;
+}
+/*Dos cajas grandes*/
+.contenedor {
+    position:absolute;
+    margin-top: 55%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.verde {
+    float: left;
+    width: 20%;
+    height: 223px;
+    background-color: #038939;
+    padding: 5%;
+    color: white;
+    
+}
+
+.buttoncaja {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.elemento {
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    font-size: 12px;
+}
+
+.titulo-contenedor {
+    text-align: center;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 300px;
+    letter-spacing: 0px;
+}
+
+.elrealverde {
+    color: #038939;
+}
+
+/* Cajas del final */
+
+.cajasfin{
+    
+    position:absolute;
+    margin-top: 115%;
+    width: 90%;
+    margin-left: 5%;
+}
+.neg{
+    font-size: 30px;
+    text-align: center;
+    float: top;
+}
+.ver{
+    font-size: 30px;
+    color: #038939;
+    text-align: center;
+    float: top;
+}
+.par{
+    float: top;
+    font-size: 15px;
+    color: grey;
+    text-align: center
+}
+.caj1{
+    width: 530px;
+    float: left;
+    height: 200px;
+}
+.caj2{
+    float: left;
+    width: 560px;
+    height: 300px;
+    margin-left: 79px;
+
+}
+.caj3{
+    float: left;
+    width: 560px;
+    height: 300px;
+}
+.caj4{
+    float: left;
+    width: 560px;
+    height: 300px;
+    margin-left: 65px;
+}
+
+.textfin{
+    margin-top: -110px;
+    text-align: right;
+    color: #038939;
+    font-size: 14px;
+}
+.textfin p{
+    color:black;
+    font-size: 14px;
+}
+.textfin button{
+    color: white;
+    background-color: #038939;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+footer{
+    position: absolute;
+    color: green;
+    background-color: #858685;
+    margin-top: 175%;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
